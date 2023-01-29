@@ -303,8 +303,8 @@ void BoxApp::BuildGeometryBuffers()
 		4,3,1,
 		4,2,3,
 		4,0,2,
-		0,2,1,
-		1,2,3
+		0,1,2,
+		1,3,2
 	};
 
 	std::vector<UINT> cubeIndices, pyramidIndices;

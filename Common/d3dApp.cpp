@@ -190,10 +190,12 @@ void D3DApp::OnResize()
 
 	// Set the viewport transform.
 
-	mScreenViewport.TopLeftX = 0;
-	mScreenViewport.TopLeftY = 0;
-	mScreenViewport.Width    = static_cast<float>(mClientWidth);
-	mScreenViewport.Height   = static_cast<float>(mClientHeight);
+	mScreenViewport.TopLeftX = 200;
+	mScreenViewport.TopLeftY = 200;
+	mScreenViewport.Width    = 300;
+	mScreenViewport.Height   = 300;
+	/*mScreenViewport.Width = static_cast<float>(mClientWidth);
+	mScreenViewport.Height = static_cast<float>(mClientHeight);*/
 	mScreenViewport.MinDepth = 0.0f;
 	mScreenViewport.MaxDepth = 1.0f;
 
