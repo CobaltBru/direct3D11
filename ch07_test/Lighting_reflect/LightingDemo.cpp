@@ -150,11 +150,11 @@ LightingApp::LightingApp(HINSTANCE hInstance)
 
 	mLandMat.Ambient  = XMFLOAT4(0.48f, 0.77f, 0.46f, 1.0f);
 	mLandMat.Diffuse  = XMFLOAT4(0.48f, 0.77f, 0.46f, 1.0f);
-	mLandMat.Specular = XMFLOAT4(0.2f, 0.2f, 0.2f, 16.0f);
+	mLandMat.Specular = XMFLOAT4(0.2f, 0.2f, 0.2f, 8.0f);
 
 	mWavesMat.Ambient  = XMFLOAT4(0.137f, 0.42f, 0.556f, 1.0f);
 	mWavesMat.Diffuse  = XMFLOAT4(0.137f, 0.42f, 0.556f, 1.0f);
-	mWavesMat.Specular = XMFLOAT4(0.8f, 0.8f, 0.8f, 512.0f);
+	mWavesMat.Specular = XMFLOAT4(0.8f, 0.8f, 0.8f, 8.0f);
 }
 
 LightingApp::~LightingApp()

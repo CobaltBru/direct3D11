@@ -278,7 +278,12 @@ LRESULT D3DApp::MsgProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 			}
 		}
 		return 0;
-
+	case WM_KEYDOWN:
+		if (wParam == VK_RIGHT) { KeyUP(); }
+		else if (wParam == VK_LEFT) { KeyDown(); }
+		else if (wParam == VK_UP) { KeyUP(); }
+		else if (wParam == VK_DOWN) { KeyDown(); }
+		break;
 	// WM_EXITSIZEMOVE is sent when the user grabs the resize bars.
 	case WM_ENTERSIZEMOVE:
 		mAppPaused = true;

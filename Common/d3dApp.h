@@ -35,7 +35,8 @@ public:
 	virtual void OnMouseDown(WPARAM btnState, int x, int y){ }
 	virtual void OnMouseUp(WPARAM btnState, int x, int y)  { }
 	virtual void OnMouseMove(WPARAM btnState, int x, int y){ }
-
+	virtual void KeyUP(){}
+	virtual void KeyDown(){}
 protected:
 	bool InitMainWindow();
 	bool InitDirect3D();
